@@ -1,0 +1,82 @@
+[
+  {
+    "id": "entity-1",
+    "entityWavId": "ENTI000000000000001",
+    "name": "Sample CORPORATE Entity 1",
+    "entityType": "CORPORATE",
+    "entitySubtype": "General",
+    "streetAddress": "1600 Pennsylvania Ave NW",
+    "zipcode": "20001",
+    "e_AssociatedEntitys": [
+      {
+        "id": "entity-2",
+        "entityType": "PRACTICE",
+        "name": "Associated PRACTICE 1"
+      }
+    ]
+  },
+  {
+    "id": "entity-2",
+    "entityWavId": "ENTI000000000000002",
+    "name": "Sample PRACTICE Entity 2",
+    "entityType": "PRACTICE",
+    "entitySubtype": "General",
+    "streetAddress": "600 F St NW",
+    "zipcode": "20004",
+    "e_AssociatedEntitys": [
+      {
+        "id": "entity-3",
+        "entityType": "EHR",
+        "name": "Associated EHR 2"
+      }
+    ]
+  },
+  {
+    "id": "entity-3",
+    "entityWavId": "ENTI000000000000003",
+    "name": "Sample EHR Entity 3",
+    "entityType": "EHR",
+    "entitySubtype": "General",
+    "streetAddress": "1101 New York Ave NW",
+    "zipcode": "20005",
+    "e_AssociatedEntitys": [
+      {
+        "id": "entity-4",
+        "entityType": "INSURANCE",
+        "name": "Associated INSURANCE 3"
+      }
+    ]
+  },
+  {
+    "id": "entity-4",
+    "entityWavId": "ENTI000000000000004",
+    "name": "Sample INSURANCE Entity 4",
+    "entityType": "INSURANCE",
+    "entitySubtype": "General",
+    "streetAddress": "700 13th St NW",
+    "zipcode": "20005",
+    "e_AssociatedEntitys": [
+      {
+        "id": "entity-5",
+        "entityType": "ANCILLIARY",
+        "name": "Associated ANCILLIARY 4"
+      }
+    ]
+  },
+  {
+    "id": "entity-5",
+    "entityWavId": "ENTI000000000000005",
+    "name": "Sample ANCILLIARY Entity 5",
+    "entityType": "ANCILLIARY",
+    "entitySubtype": "General",
+    "streetAddress": "400 7th St NW",
+    "zipcode": "20004",
+    "e_AssociatedEntitys": [
+      {
+        "id": "entity-1",
+        "entityType": "CORPORATE",
+        "name": "Associated CORPORATE 5"
+      }
+    ]
+  }
+]
